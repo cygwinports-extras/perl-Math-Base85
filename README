@@ -1,0 +1,60 @@
+perl-Math-Base85 
+------------------------------------------- 
+This Perl module handles numbers in base 85, via strings and
+Math::BigInt.
+
+Runtime requirements:
+  cygwin-1.5.21-1
+  perl-5.8.7-5
+
+Build requirements:
+  cygwin-1.5.21-1
+  binutils-20060709-1
+  cygport-0.2.5-1
+  gcc-core-3.4.4-1
+  make-3.81-1
+  perl-5.8.7-5
+  perl-Module-Build-0.2801-1
+
+Canonical homepage:
+  http://search.cpan.org/dist/Math-Base85/
+
+Canonical download:
+  http://www.cpan.org/authors/id/T/TM/TMONROE/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-Math-Base85-0.2-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-Math-Base85-0.2-X.cygport all
+
+This will create:
+  /usr/src/perl-Math-Base85-0.2-X-src.tar.bz2
+  /usr/src/perl-Math-Base85-0.2-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/perl-Math-Base85.sh
+  /usr/lib/perl5/vendor_perl/5.8/Math/Base85.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Math/Base85/.packlist
+  /usr/share/doc/Cygwin/perl-Math-Base85-0.2.README
+  /usr/share/doc/perl-Math-Base85-0.2/Changes
+  /usr/share/doc/perl-Math-Base85-0.2/README
+  /usr/share/man/man3/Math.Base85.3pm.gz
+  /usr/share/perl/cygwin-pods/5.8/Math-Base85.pod
+
+------------------
+
+Port Notes:
+
+----- version 0.2-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
